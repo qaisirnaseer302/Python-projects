@@ -19,12 +19,19 @@ It uses variables, typecasting, operators, lists, strings, dictionaries, sets, t
 🎯 Features :
 <br>
 ✅ Add new students (name, roll number, marks)
+
 ✅ Display all student records
+
 ✅ Search for a student by roll number
+
 ✅ Update marks for a student
+
 ✅ Delete a student record
+
 ✅ Display all unique marks in the class
+
 ✅ Display average, highest, and lowest marks
+
 ✅ CLI-based clean menu for easy navigation
 
 ⚙️ How It Works :
@@ -69,11 +76,17 @@ python projecct_1.py
 💡 What You Will Learn :
 
 ✅ Data structures (dict, list, tuple, set)
+
 ✅ CLI user interaction
+
 ✅ Typecasting user input
+
 ✅ Basic validation practices
+
 ✅ CRUD operations in Python
+
 ✅ Applying operators and loops practically
+
 ✅ Modular programming using functions
 
 🛠️ Requirements :
