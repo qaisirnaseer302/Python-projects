@@ -1,7 +1,7 @@
 # Functions 
         
 
-def addStudent(Students,noOfStudents):
+def addStudent(Students):
     addStudent=True
     while(addStudent == True):
         option=input("Do you want to add student (y/n): ")
@@ -10,16 +10,15 @@ def addStudent(Students,noOfStudents):
             rollNumber=int(input("Enter roll Number of Student : "))
             marks=int(input("Enter marks of student : "))
             Students.update({rollNumber : [name,marks]})
-            noOfStudents=noOfStudents+1
         elif option.strip() == " ":
             print("make a choice...")
         else :
             addStudent=False   
-    return noOfStudents
+    return
 
-def displayStudents(Students,noOfStudents):
+def displayStudents(Students):
     print(Students)
-    print(f"noOfStudents : {noOfStudents}")
+    print(f"Number of Students : {len(Students)}")
 
 
 
@@ -72,7 +71,6 @@ Students={
     
 }
 print("Wellcome to Student Management System")
-noOfStudents=0
 while True :
     print("1. Add Student")
     print("2. Display All Students")
@@ -84,11 +82,11 @@ while True :
     print("8. Exit")
     choice=int(input("Make a choice :"))
     if choice == 1 :
-        addStudent(Students,noOfStudents)
-        print(noOfStudents)
+        addStudent(Students)
+        print(f"Number of Students : {len(Students)}")
     elif choice == 2 : 
-        if noOfStudents >=0:
-            displayStudents(Students,noOfStudents)
+        if len(Students)>=0:
+            displayStudents(Students)
         else :   
             print("No student details available...")
     elif choice == 3 :
