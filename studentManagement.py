@@ -67,9 +67,7 @@ def classStatistics(Students):
        
 
 # Beggining of Program
-Students={
-    
-}
+Students={}
 print("Wellcome to Student Management System")
 while True :
     print("1. Add Student")
@@ -100,7 +98,10 @@ while True :
     elif choice == 7 :
               classStatistics(Students) 
     elif choice == 8:
-        print("Exiting Student Management System")
-        break
+        while True:
+            confirm=input("Are you sure YOU want to exit (y/n) : ").lower()
+            if confirm == "y":
+                print("Exiting Student Management System")
+                break
     else :
         print("Invalid Choice..")
