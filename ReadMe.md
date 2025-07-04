@@ -1,7 +1,10 @@
  Student Marks Management System
--->Project Description
+ <br>
+ Project Description :
+<br>
 This Student Marks Management System is a Python console application designed to help you practice Python basics.
-It allows you to:
+<br>
+It allows you to :
 
 Add, view, update, delete student records
 
@@ -13,7 +16,8 @@ Calculate class statistics (average, highest, lowest)
 
 It uses variables, typecasting, operators, lists, strings, dictionaries, sets, tuples, loops, and conditionals, reinforcing your pre-OOP Python concepts through practical CLI project work.
 
-🎯 Features
+🎯 Features :
+<br>
 ✅ Add new students (name, roll number, marks)
 ✅ Display all student records
 ✅ Search for a student by roll number
@@ -23,7 +27,8 @@ It uses variables, typecasting, operators, lists, strings, dictionaries, sets, t
 ✅ Display average, highest, and lowest marks
 ✅ CLI-based clean menu for easy navigation
 
-⚙️ How It Works
+⚙️ How It Works :
+<br>
 Uses a dictionary (Students) to store data with:
 
 Key: roll number (int)
@@ -38,7 +43,8 @@ Uses sets to show unique marks in the class.
 
 Uses basic functions to organize and structure logic.
 
-🚀 How to Run
+🚀 How to Run :
+<br>
 1️⃣ Ensure you have Python installed (3.x recommended).
 
 2️⃣ Download or copy the projecct_1.py file.
@@ -57,9 +63,11 @@ python projecct_1.py
 6. Display Unique Marks
 7. Display Class Statistics
 8. Exit
+
 5️⃣ Enter your choice to manage student data.
 
-💡 What You Will Learn
+💡 What You Will Learn :
+
 ✅ Data structures (dict, list, tuple, set)
 ✅ CLI user interaction
 ✅ Typecasting user input
@@ -68,10 +76,12 @@ python projecct_1.py
 ✅ Applying operators and loops practically
 ✅ Modular programming using functions
 
-🛠️ Requirements
+🛠️ Requirements :
+
 Python 3.x
 
 No external libraries needed (uses built-in functions only)
 
-👨‍💻 Author
+👨‍💻 Author :
+
 Qaisir Naseer
