@@ -1,9 +1,9 @@
  Student Marks Management System
- <br>
+
  Project Description :
-<br>
+
 This Student Marks Management System is a Python console application designed to help you practice Python basics.
-<br>
+
 It allows you to :
 
 Add, view, update, delete student records
