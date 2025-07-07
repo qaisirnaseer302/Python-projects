@@ -101,3 +101,7 @@ musiclibrary.py – Your custom song list for playing music by name.
 ==> License :
 
 This project is for educational and personal use. Feel free to modify and expand it as your personal Python voice assistant project.
+
+👨‍💻 Author :
+
+Qaisir Naseer
